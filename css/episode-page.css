@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: "Star Wars";
+  src: local("Star Wars"), url("../fonts/star-wars.woff2") format("woff2"),
+    url("../fonts/star-wars.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  min-width: 320px;
+  height: 100%;
+  font-family: "Star Wars", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #000;
+  background-image: url('../img/165245-zvezdnye_vojny-dart_vejder-han_solo-tysyacheletnij_sokol-korabelnaya_arhitektura-3840x2160.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
+
+.regular {
+  font-family: 'Space Mono', monospace;
+}
+
